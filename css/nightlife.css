@@ -1,0 +1,53 @@
+
+.clubs{
+  /* background-color: #f2f2f2; */
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  /* padding: 50px 0; */
+
+  /* slajder */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.clubs article{
+  display: inline-block;
+ 
+  margin:0 8px 20px 7px;
+  border: 2px solid black;
+  /* slajder */
+  list-style: none;
+  text-align: center;
+
+  
+}
+.clubs article h4, .clubs article p, .clubs article button {
+  margin-bottom: 10px;
+}
+main h3{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.nl-heading{
+    background-image:url('../img/nl/glavna.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 45vh;
+    margin-bottom: 50px;
+  
+  
+  
+}
+.nl-heading h1{
+  padding-top: 7%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 55px;
+  color: aliceblue; 
+}
+
+article img{
+width: 100%;
+}

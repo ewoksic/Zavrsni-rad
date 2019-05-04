@@ -1,0 +1,37 @@
+.special-offer-hotel, .best-NL-club{
+    width: 30%;
+    padding: 10px;
+}
+.special-offer-hotel p{
+    text-align: start;
+
+}
+.special-offer img, .best-NL img {
+    width: 200px;
+    height: 200px;
+}
+.special-offer h2, .best-NL h2, .wts-naslov h1{
+    font-size: 50px;
+}
+.special-offer p, .best-NL p{
+    font-size: 20px;
+}
+.landing-page-button{
+    padding: 15px 20px;
+}
+.special-offer-hotel h3, .best-NL-club h3{
+    font-size: 30px;
+}
+.best-NL-club i{
+    font-size: 30px;
+}
+
+.best-NL-info p{
+    font-size: 15px;
+}
+
+
+.wts-ponuda {
+   
+    width: 45%;
+}

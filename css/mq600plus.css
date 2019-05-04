@@ -1,0 +1,25 @@
+.landing-page{
+    height: 60vh; 
+}
+.landing-page-mesage1 h1, .nl-heading h1,
+.landing-page-mesage2 h1,.landing-page-mesage3 h1{
+    font-size: 75px;
+}
+/* .landing-page-mesage{
+    padding-top: 100px;
+} */
+.landing-page-mesage p{
+    font-size: 25px;
+}
+.special-offer h2, .best-NL h2, main h3{
+    font-size: 60px;
+}
+.special-offer p, .best-NL p{
+    font-size: 25px;
+}
+.landing-page-button{
+    padding: 20px 30px;
+}
+.special-offer-hotel h3, .best-NL-club h3{
+    font-size: 40px;
+}

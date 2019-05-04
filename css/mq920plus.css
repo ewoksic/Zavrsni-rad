@@ -1,0 +1,12 @@
+.wts-ponuda {
+    width: 30%;
+}
+.clubs{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    margin:0 auto;
+    white-space:wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

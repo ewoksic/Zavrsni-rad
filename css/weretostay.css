@@ -1,0 +1,115 @@
+main{
+    padding-bottom: 30px;
+   
+}
+/* Naslov na pocetku strane */
+.wts-naslov{
+height: 45vh;
+background-image: url('../img/wts/glavna.jpg');
+background-size: cover;
+background-position: bottom;
+color: aliceblue;
+text-align: center;
+margin-bottom: 50px;
+
+
+}
+.wts-naslov h1{
+    padding-top: 7%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Georgia;
+    font-size: x-large;
+}
+.wts-button{
+    text-align: center;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    /* margin-right: 15px; */
+    /* width: 60vw; */
+}
+
+.wts-button button{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.wts-ponude{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* oglasi hotela */
+.hosContainer, .hotContainer{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.wts-ponuda{
+    display: flex;
+    background:whitesmoke;
+    margin:20px auto;
+    /* width: 300px; */
+    /* -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 5px 0px rgba(245, 245, 245, 0.75); */
+    width:95%;
+}
+.wts-ponuda img{
+    width: 123px;
+    height: 100%;
+    margin-left: 5px;
+    object-fit: scale-down;
+                                            
+                                        }
+.wts-info{
+    width: 100%
+}
+/* dugme u oglasu */
+.wts-info a{
+    margin: 15px 0 5px 15px;
+    }
+.wts-info h2{
+    margin-bottom: 9px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+    text-align: center;
+}
+.wts-info span{
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 3px;    
+    background: #003580;
+    color: white;
+    border-radius: 6px 6px 6px 0;
+}
+.ocena{
+    padding-left: 5px;
+    width:30%;
+    float:left;
+    
+}
+.ocena p{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-top: 5px;
+}
+.adresa p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+.adresa i{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 5px;
+}
+/* .wts-info a
+{
+  display:block;
+   width:100%;     
+  position:relative;
+  clear:both; 
+  padding: 5px;
+  text-align:center; 
+} */
