@@ -1,16 +1,10 @@
 let appId = "108f6547a8199c51eea80ecc0bafd9fc";
 let units = "metric";
-let searchMethod;
-
-function getSearchMethod(searchTerm) {
-    if (searchTerm.length === 5 && Number.parseInt(searchTerm) + "" === searchTerm)
-        searchMethod = "zip";
-    else
-        searchMethod = "q";
-}
+let searchTerm = "belgrade"
+let searchMethod = 'q'
 
 function searchWeather(searchTerm) {
-    getSearchMethod(searchTerm);
+    
     fetch(`https://api.openweathermap.org/data/2.5/weather?${searchMethod}=${searchTerm}&APPID=${appId}&units=${units}`).then(result => {
         return result.json();
     }).then(result => {
@@ -33,5 +27,4 @@ function init(resultFromServer) {
     
 }
 
-let searchTerm = "belgrade"
 searchWeather(searchTerm);
