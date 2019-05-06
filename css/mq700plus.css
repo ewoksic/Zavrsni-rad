@@ -10,7 +10,7 @@
     width: 200px;
     height: 200px;
 }
-.special-offer h2, .best-NL h2, .wts-naslov h1{
+.special-offer h2, .best-NL h2, .wts-naslov h1, .weather h4{
     font-size: 50px;
 }
 .special-offer p, .best-NL p{

@@ -6,22 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="img/favicon2.jpg" type="image/x-icon">
-
-
-  <!-- 1. Link to jQuery (1.8 or later), -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
-
+  <!--  Link to jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- fotorama.css & fotorama.js. -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
-
-  <!-- <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mq600plus.css" media="screen and (min-width:600px)">
   <link rel="stylesheet" href="css/mq700plus.css" media="screen and (min-width:700px)">
+  <link rel="stylesheet" href="css/mq920plus.css" media='screen and (min-width:920px)'>
   <title>Belgrade</title>
 </head>
 
@@ -31,17 +26,6 @@
   <a href="web-pages/weretostay.html">Were to stay</a>
   <a href="web-pages/night-life.html">Nigth Life</a>
   <a href="web-pages/contact.html">Contact</a>
-  <!-- <div class="dropdown">
-      <button class="dropbtn">Dropdown
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div> -->
-  <!-- <a href="#about">About</a> -->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
@@ -90,17 +74,7 @@
   </li>
 
 </ul>
-<!-- <div class="landing-page">
-      <div class="landing-page-mesage">
-        <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, repellat nemo voluptatibus dicta
-          similique enim eaque ipsam reiciendis numquam laudantium. Dicta exercitationem accusantium esse eius sapiente,
-          cum molestiae ea in.</p>
-          <div class="landing-page-button">
-            <a href="#so">Discover</a>
-          </div>
-        </div>
-      </div> -->
+
 <main>
   <div class="special-offer" id="so">
     <h2>Special offer from best accommodation in Belgrade</h2>
@@ -132,7 +106,6 @@
   </div>
   <div class="gallery">
     <h3>Feel Belgrade vibe</h3>
-    <!-- 2. Add images to <div class="fotorama"></div>. -->
     <div class="fotorama" data-nav="thumbs">
       <img src="img/gallery/Belgrade.jpg">
       <img src="img/gallery/belgrade-625x351.jpg">
@@ -143,7 +116,7 @@
       <img src="img/gallery/belgrade-fortress-at.jpg">
       <img src="img/gallery/images.jpg">
       <img src="img/gallery/knez_mihajlova_belgrade_serbia.jpg">
-    
+
     </div>
 
   </div>
@@ -202,21 +175,9 @@
       </div>
     </div>
   </div>
-  <!-- <div id="weatherContainer">
-        <div id="weatherDescription"> -->
-  <!-- <h1 id="cityHeader"></h1> -->
-  <!-- <div id="weatherMain"> -->
-  <!-- <div id="temperature"></div> -->
-  <!-- <div id="weatherDescriptionHeader"></div> -->
-  <!-- </div>
-              <hr> -->
-  <!-- <div id="whindSpeed" class="bottomDetails"></div> -->
-  <!-- <div id="huminity" class="bottomDetails"></div> -->
-  <!-- </div>
-          </div> -->
 
   <div class="weather">
-    <H4>Weather in Belgrade</H4>
+    <h4>Weather in Belgrade</h4>
     <h5 id="weatherDescriptionHeader"></h5>
     <div class="weather-content">
       <div class="weather-current">
@@ -225,7 +186,6 @@
       </div>
       <ul>
         <li id="huminity"></li>
-        <!-- <li>Visibility: <span id="weatherDescriptionHeader"></span></li> -->
         <li id="whindSpeed"></li>
       </ul>
 
@@ -244,6 +204,7 @@
 
 <script src="js/main.js"></script>
 <script src="js/weather.js"></script>
+<script src="js/slider.js"></script>
 </body>
 
 </html>

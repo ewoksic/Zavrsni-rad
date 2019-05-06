@@ -8,10 +8,10 @@
 /* .landing-page-mesage{
     padding-top: 100px;
 } */
-.landing-page-mesage p{
+.slide p{
     font-size: 25px;
 }
-.special-offer h2, .best-NL h2, main h3{
+.special-offer h2, .best-NL h2, main h3, .weather h4{
     font-size: 60px;
 }
 .special-offer p, .best-NL p{

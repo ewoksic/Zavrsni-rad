@@ -1,3 +1,9 @@
+.slide p{
+    font-size: 35px;
+}
+.landing-page-mesage1 h1, .landing-page-mesage2 h1, .landing-page-mesage3 h1{
+    padding: 80px 6% 0 6%;
+}
 .wts-ponuda {
     width: 30%;
 }
