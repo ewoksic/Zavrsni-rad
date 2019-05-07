@@ -6,13 +6,6 @@
  html {
   scroll-behavior: smooth;
 }
- 
- /* NavBar pocetak */
- /* nav{
-   width: 100%;
- } */
- 
- /* Add a black background color to the top navigation */
  .topnav {
   background-color: rgb(19, 129, 219);
   overflow: hidden;
@@ -29,11 +22,7 @@
   font-size: 17px;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  /* background-color: #4CAF50; */
-  color: white;
-}
+
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
